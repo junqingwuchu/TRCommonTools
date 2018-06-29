@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52384920E5D69800F35119 /* AppDelegate.m */; };
+		FD52384D20E5D69800F35119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52384C20E5D69800F35119 /* ViewController.m */; };
+		FD52385020E5D69800F35119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD52384E20E5D69800F35119 /* Main.storyboard */; };
+		FD52385220E5D69800F35119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD52385120E5D69800F35119 /* Assets.xcassets */; };
+		FD52385520E5D69800F35119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD52385320E5D69800F35119 /* LaunchScreen.storyboard */; };
+		FD52385820E5D69800F35119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52385720E5D69800F35119 /* main.m */; };
+		FD52386220E5D69800F35119 /* TRCommonToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52386120E5D69800F35119 /* TRCommonToolsUITests.m */; };
+		FD52389420E5D6AB00F35119 /* NSString+TRStringWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52386E20E5D6AB00F35119 /* NSString+TRStringWidth.m */; };
+		FD52389520E5D6AB00F35119 /* CHDTRPingTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387120E5D6AB00F35119 /* CHDTRPingTestHelper.m */; };
+		FD52389620E5D6AB00F35119 /* TRSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387320E5D6AB00F35119 /* TRSimplePing.m */; };
+		FD52389720E5D6AB00F35119 /* TRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387620E5D6AB00F35119 /* TRAlertController.m */; };
+		FD52389820E5D6AB00F35119 /* TRAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387820E5D6AB00F35119 /* TRAlertWindow.m */; };
+		FD52389920E5D6AB00F35119 /* TRAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387A20E5D6AB00F35119 /* TRAnimationHelper.m */; };
+		FD52389A20E5D6AB00F35119 /* TRAttributeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387C20E5D6AB00F35119 /* TRAttributeDictionary.m */; };
+		FD52389B20E5D6AB00F35119 /* TRCommonFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387E20E5D6AB00F35119 /* TRCommonFunction.m */; };
+		FD52389C20E5D6AB00F35119 /* TRFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388020E5D6AB00F35119 /* TRFileManager.m */; };
+		FD52389D20E5D6AB00F35119 /* TRScheduledExecutorService.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388320E5D6AB00F35119 /* TRScheduledExecutorService.m */; };
+		FD52389E20E5D6AB00F35119 /* TRScheduledTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388520E5D6AB00F35119 /* TRScheduledTask.m */; };
+		FD52389F20E5D6AB00F35119 /* TRTimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388720E5D6AB00F35119 /* TRTimeUtility.m */; };
+		FD5238A020E5D6AB00F35119 /* TRWKWeakDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388920E5D6AB00F35119 /* TRWKWeakDelegateController.m */; };
+		FD5238A120E5D6AB00F35119 /* UIImage+ImageCliped.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388B20E5D6AB00F35119 /* UIImage+ImageCliped.m */; };
+		FD5238A220E5D6AB00F35119 /* UIView+TRCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388D20E5D6AB00F35119 /* UIView+TRCorner.m */; };
+		FD5238A320E5D6AB00F35119 /* UIView+TRFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388F20E5D6AB00F35119 /* UIView+TRFrame.m */; };
+		FD5238A420E5D6AB00F35119 /* UIView+TRGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */; };
+		FD5238A520E5D6AB00F35119 /* ZFModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD52385E20E5D69800F35119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD52383D20E5D69800F35119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD52384420E5D69800F35119;
+			remoteInfo = TRCommonTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD52384520E5D69800F35119 /* TRCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD52384820E5D69800F35119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD52384920E5D69800F35119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD52384B20E5D69800F35119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD52384C20E5D69800F35119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD52384F20E5D69800F35119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD52385120E5D69800F35119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD52385420E5D69800F35119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD52385620E5D69800F35119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD52385720E5D69800F35119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD52385D20E5D69800F35119 /* TRCommonToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRCommonToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD52386120E5D69800F35119 /* TRCommonToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCommonToolsUITests.m; sourceTree = "<group>"; };
+		FD52386320E5D69800F35119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD52386D20E5D6AB00F35119 /* NSString+TRStringWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TRStringWidth.h"; sourceTree = "<group>"; };
+		FD52386E20E5D6AB00F35119 /* NSString+TRStringWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TRStringWidth.m"; sourceTree = "<group>"; };
+		FD52387020E5D6AB00F35119 /* CHDTRPingTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDTRPingTestHelper.h; sourceTree = "<group>"; };
+		FD52387120E5D6AB00F35119 /* CHDTRPingTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDTRPingTestHelper.m; sourceTree = "<group>"; };
+		FD52387220E5D6AB00F35119 /* TRSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSimplePing.h; sourceTree = "<group>"; };
+		FD52387320E5D6AB00F35119 /* TRSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSimplePing.m; sourceTree = "<group>"; };
+		FD52387520E5D6AB00F35119 /* TRAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAlertController.h; sourceTree = "<group>"; };
+		FD52387620E5D6AB00F35119 /* TRAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRAlertController.m; sourceTree = "<group>"; };
+		FD52387720E5D6AB00F35119 /* TRAlertWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAlertWindow.h; sourceTree = "<group>"; };
+		FD52387820E5D6AB00F35119 /* TRAlertWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRAlertWindow.m; sourceTree = "<group>"; };
+		FD52387920E5D6AB00F35119 /* TRAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAnimationHelper.h; sourceTree = "<group>"; };
+		FD52387A20E5D6AB00F35119 /* TRAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRAnimationHelper.m; sourceTree = "<group>"; };
+		FD52387B20E5D6AB00F35119 /* TRAttributeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAttributeDictionary.h; sourceTree = "<group>"; };
+		FD52387C20E5D6AB00F35119 /* TRAttributeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRAttributeDictionary.m; sourceTree = "<group>"; };
+		FD52387D20E5D6AB00F35119 /* TRCommonFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCommonFunction.h; sourceTree = "<group>"; };
+		FD52387E20E5D6AB00F35119 /* TRCommonFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCommonFunction.m; sourceTree = "<group>"; };
+		FD52387F20E5D6AB00F35119 /* TRFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRFileManager.h; sourceTree = "<group>"; };
+		FD52388020E5D6AB00F35119 /* TRFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRFileManager.m; sourceTree = "<group>"; };
+		FD52388120E5D6AB00F35119 /* TRMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMacroDefine.h; sourceTree = "<group>"; };
+		FD52388220E5D6AB00F35119 /* TRScheduledExecutorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRScheduledExecutorService.h; sourceTree = "<group>"; };
+		FD52388320E5D6AB00F35119 /* TRScheduledExecutorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRScheduledExecutorService.m; sourceTree = "<group>"; };
+		FD52388420E5D6AB00F35119 /* TRScheduledTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRScheduledTask.h; sourceTree = "<group>"; };
+		FD52388520E5D6AB00F35119 /* TRScheduledTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRScheduledTask.m; sourceTree = "<group>"; };
+		FD52388620E5D6AB00F35119 /* TRTimeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTimeUtility.h; sourceTree = "<group>"; };
+		FD52388720E5D6AB00F35119 /* TRTimeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTimeUtility.m; sourceTree = "<group>"; };
+		FD52388820E5D6AB00F35119 /* TRWKWeakDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWKWeakDelegateController.h; sourceTree = "<group>"; };
+		FD52388920E5D6AB00F35119 /* TRWKWeakDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWKWeakDelegateController.m; sourceTree = "<group>"; };
+		FD52388A20E5D6AB00F35119 /* UIImage+ImageCliped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageCliped.h"; sourceTree = "<group>"; };
+		FD52388B20E5D6AB00F35119 /* UIImage+ImageCliped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageCliped.m"; sourceTree = "<group>"; };
+		FD52388C20E5D6AB00F35119 /* UIView+TRCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TRCorner.h"; sourceTree = "<group>"; };
+		FD52388D20E5D6AB00F35119 /* UIView+TRCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRCorner.m"; sourceTree = "<group>"; };
+		FD52388E20E5D6AB00F35119 /* UIView+TRFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TRFrame.h"; sourceTree = "<group>"; };
+		FD52388F20E5D6AB00F35119 /* UIView+TRFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRFrame.m"; sourceTree = "<group>"; };
+		FD52389020E5D6AB00F35119 /* UIView+TRGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TRGradient.h"; sourceTree = "<group>"; };
+		FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRGradient.m"; sourceTree = "<group>"; };
+		FD52389220E5D6AB00F35119 /* ZFModalTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFModalTransitionAnimator.h; sourceTree = "<group>"; };
+		FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFModalTransitionAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD52384220E5D69800F35119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52385A20E5D69800F35119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD52383C20E5D69800F35119 = {
+			isa = PBXGroup;
+			children = (
+				FD52384720E5D69800F35119 /* TRCommonTools */,
+				FD52386020E5D69800F35119 /* TRCommonToolsUITests */,
+				FD52384620E5D69800F35119 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD52384620E5D69800F35119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD52384520E5D69800F35119 /* TRCommonTools.app */,
+				FD52385D20E5D69800F35119 /* TRCommonToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD52384720E5D69800F35119 /* TRCommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				FD52386C20E5D6AB00F35119 /* TRCommonTools */,
+				FD52384820E5D69800F35119 /* AppDelegate.h */,
+				FD52384920E5D69800F35119 /* AppDelegate.m */,
+				FD52384B20E5D69800F35119 /* ViewController.h */,
+				FD52384C20E5D69800F35119 /* ViewController.m */,
+				FD52384E20E5D69800F35119 /* Main.storyboard */,
+				FD52385120E5D69800F35119 /* Assets.xcassets */,
+				FD52385320E5D69800F35119 /* LaunchScreen.storyboard */,
+				FD52385620E5D69800F35119 /* Info.plist */,
+				FD52385720E5D69800F35119 /* main.m */,
+			);
+			path = TRCommonTools;
+			sourceTree = "<group>";
+		};
+		FD52386020E5D69800F35119 /* TRCommonToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD52386120E5D69800F35119 /* TRCommonToolsUITests.m */,
+				FD52386320E5D69800F35119 /* Info.plist */,
+			);
+			path = TRCommonToolsUITests;
+			sourceTree = "<group>";
+		};
+		FD52386C20E5D6AB00F35119 /* TRCommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				FD52386D20E5D6AB00F35119 /* NSString+TRStringWidth.h */,
+				FD52386E20E5D6AB00F35119 /* NSString+TRStringWidth.m */,
+				FD52386F20E5D6AB00F35119 /* PingTestHelper */,
+				FD52387420E5D6AB00F35119 /* TRAlert */,
+				FD52387920E5D6AB00F35119 /* TRAnimationHelper.h */,
+				FD52387A20E5D6AB00F35119 /* TRAnimationHelper.m */,
+				FD52387B20E5D6AB00F35119 /* TRAttributeDictionary.h */,
+				FD52387C20E5D6AB00F35119 /* TRAttributeDictionary.m */,
+				FD52387D20E5D6AB00F35119 /* TRCommonFunction.h */,
+				FD52387E20E5D6AB00F35119 /* TRCommonFunction.m */,
+				FD52387F20E5D6AB00F35119 /* TRFileManager.h */,
+				FD52388020E5D6AB00F35119 /* TRFileManager.m */,
+				FD52388120E5D6AB00F35119 /* TRMacroDefine.h */,
+				FD52388220E5D6AB00F35119 /* TRScheduledExecutorService.h */,
+				FD52388320E5D6AB00F35119 /* TRScheduledExecutorService.m */,
+				FD52388420E5D6AB00F35119 /* TRScheduledTask.h */,
+				FD52388520E5D6AB00F35119 /* TRScheduledTask.m */,
+				FD52388620E5D6AB00F35119 /* TRTimeUtility.h */,
+				FD52388720E5D6AB00F35119 /* TRTimeUtility.m */,
+				FD52388820E5D6AB00F35119 /* TRWKWeakDelegateController.h */,
+				FD52388920E5D6AB00F35119 /* TRWKWeakDelegateController.m */,
+				FD52388A20E5D6AB00F35119 /* UIImage+ImageCliped.h */,
+				FD52388B20E5D6AB00F35119 /* UIImage+ImageCliped.m */,
+				FD52388C20E5D6AB00F35119 /* UIView+TRCorner.h */,
+				FD52388D20E5D6AB00F35119 /* UIView+TRCorner.m */,
+				FD52388E20E5D6AB00F35119 /* UIView+TRFrame.h */,
+				FD52388F20E5D6AB00F35119 /* UIView+TRFrame.m */,
+				FD52389020E5D6AB00F35119 /* UIView+TRGradient.h */,
+				FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */,
+				FD52389220E5D6AB00F35119 /* ZFModalTransitionAnimator.h */,
+				FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */,
+			);
+			path = TRCommonTools;
+			sourceTree = "<group>";
+		};
+		FD52386F20E5D6AB00F35119 /* PingTestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FD52387020E5D6AB00F35119 /* CHDTRPingTestHelper.h */,
+				FD52387120E5D6AB00F35119 /* CHDTRPingTestHelper.m */,
+				FD52387220E5D6AB00F35119 /* TRSimplePing.h */,
+				FD52387320E5D6AB00F35119 /* TRSimplePing.m */,
+			);
+			path = PingTestHelper;
+			sourceTree = "<group>";
+		};
+		FD52387420E5D6AB00F35119 /* TRAlert */ = {
+			isa = PBXGroup;
+			children = (
+				FD52387520E5D6AB00F35119 /* TRAlertController.h */,
+				FD52387620E5D6AB00F35119 /* TRAlertController.m */,
+				FD52387720E5D6AB00F35119 /* TRAlertWindow.h */,
+				FD52387820E5D6AB00F35119 /* TRAlertWindow.m */,
+			);
+			path = TRAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD52384420E5D69800F35119 /* TRCommonTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD52386620E5D69800F35119 /* Build configuration list for PBXNativeTarget "TRCommonTools" */;
+			buildPhases = (
+				FD52384120E5D69800F35119 /* Sources */,
+				FD52384220E5D69800F35119 /* Frameworks */,
+				FD52384320E5D69800F35119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRCommonTools;
+			productName = TRCommonTools;
+			productReference = FD52384520E5D69800F35119 /* TRCommonTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD52385C20E5D69800F35119 /* TRCommonToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD52386920E5D69800F35119 /* Build configuration list for PBXNativeTarget "TRCommonToolsUITests" */;
+			buildPhases = (
+				FD52385920E5D69800F35119 /* Sources */,
+				FD52385A20E5D69800F35119 /* Frameworks */,
+				FD52385B20E5D69800F35119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD52385F20E5D69800F35119 /* PBXTargetDependency */,
+			);
+			name = TRCommonToolsUITests;
+			productName = TRCommonToolsUITests;
+			productReference = FD52385D20E5D69800F35119 /* TRCommonToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD52383D20E5D69800F35119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Tracky;
+				TargetAttributes = {
+					FD52384420E5D69800F35119 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FD52385C20E5D69800F35119 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD52384420E5D69800F35119;
+					};
+				};
+			};
+			buildConfigurationList = FD52384020E5D69800F35119 /* Build configuration list for PBXProject "TRCommonTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD52383C20E5D69800F35119;
+			productRefGroup = FD52384620E5D69800F35119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD52384420E5D69800F35119 /* TRCommonTools */,
+				FD52385C20E5D69800F35119 /* TRCommonToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD52384320E5D69800F35119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD52385520E5D69800F35119 /* LaunchScreen.storyboard in Resources */,
+				FD52385220E5D69800F35119 /* Assets.xcassets in Resources */,
+				FD52385020E5D69800F35119 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52385B20E5D69800F35119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD52384120E5D69800F35119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD52389A20E5D6AB00F35119 /* TRAttributeDictionary.m in Sources */,
+				FD52389820E5D6AB00F35119 /* TRAlertWindow.m in Sources */,
+				FD5238A520E5D6AB00F35119 /* ZFModalTransitionAnimator.m in Sources */,
+				FD52389B20E5D6AB00F35119 /* TRCommonFunction.m in Sources */,
+				FD52389F20E5D6AB00F35119 /* TRTimeUtility.m in Sources */,
+				FD5238A320E5D6AB00F35119 /* UIView+TRFrame.m in Sources */,
+				FD52389C20E5D6AB00F35119 /* TRFileManager.m in Sources */,
+				FD52389520E5D6AB00F35119 /* CHDTRPingTestHelper.m in Sources */,
+				FD5238A020E5D6AB00F35119 /* TRWKWeakDelegateController.m in Sources */,
+				FD5238A220E5D6AB00F35119 /* UIView+TRCorner.m in Sources */,
+				FD52384D20E5D69800F35119 /* ViewController.m in Sources */,
+				FD5238A420E5D6AB00F35119 /* UIView+TRGradient.m in Sources */,
+				FD52385820E5D69800F35119 /* main.m in Sources */,
+				FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */,
+				FD52389E20E5D6AB00F35119 /* TRScheduledTask.m in Sources */,
+				FD52389420E5D6AB00F35119 /* NSString+TRStringWidth.m in Sources */,
+				FD5238A120E5D6AB00F35119 /* UIImage+ImageCliped.m in Sources */,
+				FD52389720E5D6AB00F35119 /* TRAlertController.m in Sources */,
+				FD52389D20E5D6AB00F35119 /* TRScheduledExecutorService.m in Sources */,
+				FD52389620E5D6AB00F35119 /* TRSimplePing.m in Sources */,
+				FD52389920E5D6AB00F35119 /* TRAnimationHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52385920E5D69800F35119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD52386220E5D69800F35119 /* TRCommonToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD52385F20E5D69800F35119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD52384420E5D69800F35119 /* TRCommonTools */;
+			targetProxy = FD52385E20E5D69800F35119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD52384E20E5D69800F35119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD52384F20E5D69800F35119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD52385320E5D69800F35119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD52385420E5D69800F35119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD52386420E5D69800F35119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD52386520E5D69800F35119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD52386720E5D69800F35119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRCommonTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRCommonTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD52386820E5D69800F35119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRCommonTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRCommonTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD52386A20E5D69800F35119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRCommonToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRCommonToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRCommonTools;
+			};
+			name = Debug;
+		};
+		FD52386B20E5D69800F35119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRCommonToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRCommonToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRCommonTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD52384020E5D69800F35119 /* Build configuration list for PBXProject "TRCommonTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD52386420E5D69800F35119 /* Debug */,
+				FD52386520E5D69800F35119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD52386620E5D69800F35119 /* Build configuration list for PBXNativeTarget "TRCommonTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD52386720E5D69800F35119 /* Debug */,
+				FD52386820E5D69800F35119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD52386920E5D69800F35119 /* Build configuration list for PBXNativeTarget "TRCommonToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD52386A20E5D69800F35119 /* Debug */,
+				FD52386B20E5D69800F35119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD52383D20E5D69800F35119 /* Project object */;
+}
