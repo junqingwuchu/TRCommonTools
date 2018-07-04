@@ -21,6 +21,7 @@
 }
 
 - (void)tr_addCornerAtPostion:(UIRectCorner)postion{
+    [self layoutIfNeeded];
     CGFloat radius = (self.tr_cornerRadius > 0) ? self.tr_cornerRadius : 6.f;
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:postion cornerRadii:CGSizeMake(radius, radius)];
     
