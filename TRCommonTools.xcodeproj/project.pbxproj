@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */; };
+		FD4E8B5B20EDF88D00738E1A /* UITextField+TRBackward.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */; };
 		FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52384920E5D69800F35119 /* AppDelegate.m */; };
 		FD52384D20E5D69800F35119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52384C20E5D69800F35119 /* ViewController.m */; };
 		FD52385020E5D69800F35119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD52384E20E5D69800F35119 /* Main.storyboard */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FD4E8B5920EDF88D00738E1A /* UITextField+TRBackward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TRBackward.h"; sourceTree = "<group>"; };
+		FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TRBackward.m"; sourceTree = "<group>"; };
 		FD52384520E5D69800F35119 /* TRCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD52384820E5D69800F35119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD52384920E5D69800F35119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +147,8 @@
 				FD52384920E5D69800F35119 /* AppDelegate.m */,
 				FD52384B20E5D69800F35119 /* ViewController.h */,
 				FD52384C20E5D69800F35119 /* ViewController.m */,
+				FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */,
+				FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */,
 				FD52384E20E5D69800F35119 /* Main.storyboard */,
 				FD52385120E5D69800F35119 /* Assets.xcassets */,
 				FD52385320E5D69800F35119 /* LaunchScreen.storyboard */,
@@ -190,6 +198,8 @@
 				FD52388E20E5D6AB00F35119 /* UIView+TRFrame.h */,
 				FD52388F20E5D6AB00F35119 /* UIView+TRFrame.m */,
 				FD52389020E5D6AB00F35119 /* UIView+TRGradient.h */,
+				FD4E8B5920EDF88D00738E1A /* UITextField+TRBackward.h */,
+				FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */,
 				FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */,
 				FD52389220E5D6AB00F35119 /* ZFModalTransitionAnimator.h */,
 				FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */,
@@ -321,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4E8B5B20EDF88D00738E1A /* UITextField+TRBackward.m in Sources */,
 				FD52389A20E5D6AB00F35119 /* TRAttributeDictionary.m in Sources */,
 				FD52389820E5D6AB00F35119 /* TRAlertWindow.m in Sources */,
 				FD5238A520E5D6AB00F35119 /* ZFModalTransitionAnimator.m in Sources */,
@@ -332,6 +343,7 @@
 				FD5238A020E5D6AB00F35119 /* TRWKWeakDelegateController.m in Sources */,
 				FD5238A220E5D6AB00F35119 /* UIView+TRCorner.m in Sources */,
 				FD52384D20E5D69800F35119 /* ViewController.m in Sources */,
+				FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */,
 				FD5238A420E5D6AB00F35119 /* UIView+TRGradient.m in Sources */,
 				FD52385820E5D69800F35119 /* main.m in Sources */,
 				FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */,
@@ -492,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 495KMY7K3E;
 				INFOPLIST_FILE = TRCommonTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRCommonTools;
@@ -505,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 495KMY7K3E;
 				INFOPLIST_FILE = TRCommonTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tracky.TRCommonTools;
