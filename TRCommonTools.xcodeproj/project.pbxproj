@@ -34,6 +34,7 @@
 		FD5238A320E5D6AB00F35119 /* UIView+TRFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52388F20E5D6AB00F35119 /* UIView+TRFrame.m */; };
 		FD5238A420E5D6AB00F35119 /* UIView+TRGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */; };
 		FD5238A520E5D6AB00F35119 /* ZFModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */; };
+		FD93034320F4BBC9009C3893 /* TRGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD93034220F4BBC9009C3893 /* TRGCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TRGradient.m"; sourceTree = "<group>"; };
 		FD52389220E5D6AB00F35119 /* ZFModalTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFModalTransitionAnimator.h; sourceTree = "<group>"; };
 		FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFModalTransitionAnimator.m; sourceTree = "<group>"; };
+		FD93034120F4BBC9009C3893 /* TRGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRGCDTimer.h; sourceTree = "<group>"; };
+		FD93034220F4BBC9009C3893 /* TRGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRGCDTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,9 +201,11 @@
 				FD52388E20E5D6AB00F35119 /* UIView+TRFrame.h */,
 				FD52388F20E5D6AB00F35119 /* UIView+TRFrame.m */,
 				FD52389020E5D6AB00F35119 /* UIView+TRGradient.h */,
+				FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */,
 				FD4E8B5920EDF88D00738E1A /* UITextField+TRBackward.h */,
 				FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */,
-				FD52389120E5D6AB00F35119 /* UIView+TRGradient.m */,
+				FD93034120F4BBC9009C3893 /* TRGCDTimer.h */,
+				FD93034220F4BBC9009C3893 /* TRGCDTimer.m */,
 				FD52389220E5D6AB00F35119 /* ZFModalTransitionAnimator.h */,
 				FD52389320E5D6AB00F35119 /* ZFModalTransitionAnimator.m */,
 			);
@@ -351,6 +356,7 @@
 				FD52389420E5D6AB00F35119 /* NSString+TRStringWidth.m in Sources */,
 				FD5238A120E5D6AB00F35119 /* UIImage+ImageCliped.m in Sources */,
 				FD52389720E5D6AB00F35119 /* TRAlertController.m in Sources */,
+				FD93034320F4BBC9009C3893 /* TRGCDTimer.m in Sources */,
 				FD52389D20E5D6AB00F35119 /* TRScheduledExecutorService.m in Sources */,
 				FD52389620E5D6AB00F35119 /* TRSimplePing.m in Sources */,
 				FD52389920E5D6AB00F35119 /* TRAnimationHelper.m in Sources */,
