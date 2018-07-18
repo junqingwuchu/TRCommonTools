@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E754CC1C6CF9AFE54D81E75 /* libPods-TRCommonTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E011084E6EFE789B24557D /* libPods-TRCommonTools.a */; };
+		FD02A67C20FCA41400E9F1C3 /* FirstViewController+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = FD02A67B20FCA41400E9F1C3 /* FirstViewController+Config.m */; };
 		FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */; };
 		FD4E8B5B20EDF88D00738E1A /* UITextField+TRBackward.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */; };
 		FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52384920E5D69800F35119 /* AppDelegate.m */; };
@@ -48,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25E011084E6EFE789B24557D /* libPods-TRCommonTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRCommonTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E123FFCE8603E9A31373231 /* Pods-TRCommonTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRCommonTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRCommonTools/Pods-TRCommonTools.debug.xcconfig"; sourceTree = "<group>"; };
+		B0B99ED09189721CDB732B7E /* Pods-TRCommonTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRCommonTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRCommonTools/Pods-TRCommonTools.release.xcconfig"; sourceTree = "<group>"; };
+		FD02A67A20FCA41400E9F1C3 /* FirstViewController+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstViewController+Config.h"; sourceTree = "<group>"; };
+		FD02A67B20FCA41400E9F1C3 /* FirstViewController+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FirstViewController+Config.m"; sourceTree = "<group>"; };
 		FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		FD4E8B5920EDF88D00738E1A /* UITextField+TRBackward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TRBackward.h"; sourceTree = "<group>"; };
@@ -111,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E754CC1C6CF9AFE54D81E75 /* libPods-TRCommonTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,12 +132,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C0437B3005D86E9C8B507A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E011084E6EFE789B24557D /* libPods-TRCommonTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04EE95CCD17699BCDB23AC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E123FFCE8603E9A31373231 /* Pods-TRCommonTools.debug.xcconfig */,
+				B0B99ED09189721CDB732B7E /* Pods-TRCommonTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD52383C20E5D69800F35119 = {
 			isa = PBXGroup;
 			children = (
 				FD52384720E5D69800F35119 /* TRCommonTools */,
 				FD52386020E5D69800F35119 /* TRCommonToolsUITests */,
 				FD52384620E5D69800F35119 /* Products */,
+				A04EE95CCD17699BCDB23AC3 /* Pods */,
+				26C0437B3005D86E9C8B507A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +179,8 @@
 				FD52384C20E5D69800F35119 /* ViewController.m */,
 				FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */,
 				FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */,
+				FD02A67A20FCA41400E9F1C3 /* FirstViewController+Config.h */,
+				FD02A67B20FCA41400E9F1C3 /* FirstViewController+Config.m */,
 				FD52384E20E5D69800F35119 /* Main.storyboard */,
 				FD52385120E5D69800F35119 /* Assets.xcassets */,
 				FD52385320E5D69800F35119 /* LaunchScreen.storyboard */,
@@ -241,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD52386620E5D69800F35119 /* Build configuration list for PBXNativeTarget "TRCommonTools" */;
 			buildPhases = (
+				22B1A276390FAD2C093397B9 /* [CP] Check Pods Manifest.lock */,
 				FD52384120E5D69800F35119 /* Sources */,
 				FD52384220E5D69800F35119 /* Frameworks */,
 				FD52384320E5D69800F35119 /* Resources */,
@@ -331,6 +361,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B1A276390FAD2C093397B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRCommonTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD52384120E5D69800F35119 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -346,6 +397,7 @@
 				FD52389C20E5D6AB00F35119 /* TRFileManager.m in Sources */,
 				FD52389520E5D6AB00F35119 /* CHDTRPingTestHelper.m in Sources */,
 				FD5238A020E5D6AB00F35119 /* TRWKWeakDelegateController.m in Sources */,
+				FD02A67C20FCA41400E9F1C3 /* FirstViewController+Config.m in Sources */,
 				FD5238A220E5D6AB00F35119 /* UIView+TRCorner.m in Sources */,
 				FD52384D20E5D69800F35119 /* ViewController.m in Sources */,
 				FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */,
@@ -507,6 +559,7 @@
 		};
 		FD52386720E5D69800F35119 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E123FFCE8603E9A31373231 /* Pods-TRCommonTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +574,7 @@
 		};
 		FD52386820E5D69800F35119 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B99ED09189721CDB732B7E /* Pods-TRCommonTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

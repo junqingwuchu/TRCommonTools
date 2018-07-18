@@ -28,6 +28,55 @@
 - (void)buttonTouch:(UIButton *)button{
     FirstViewController *vc = [[FirstViewController alloc] init];
     [self presentViewController:vc animated:YES completion:nil];
+    
+    
+    NSMutableArray * m1 = [NSMutableArray array];
+    NSMutableArray * m2 = [NSMutableArray array];
+    NSMutableArray * m3 = [NSMutableArray array];
+    NSMutableArray * m4 = [NSMutableArray array];
+    
+    for (int i = 0; i <16; i++) {
+        if (i & (1 << 0)) {
+            [m1 addObject:@(i)];
+        }
+        if (i & (1 << 1)) {
+            [m2 addObject:@(i)];
+        }
+        if (i & (1 << 2)) {
+            [m3 addObject:@(i)];
+        }
+        if (i & (1 << 3)) {
+            [m4 addObject:@(i)];
+        }
+    }
+    NSLog(@" %ld %ld %ld %ld ", m1.count, m2.count,m3.count,m4.count);
+    
+    
+    
+    for (int i = 0; i < m1.count; i++) {
+        if (i == 0) {
+            NSLog(@"m1 /n");
+        }
+        NSLog(@"%d ", [m1[i] intValue]);
+    }
+    for (int i = 0; i < m2.count; i++) {
+        if (i == 0) {
+            NSLog(@"m2 /n");
+        }
+        NSLog(@"%d ", [m2[i] intValue]);
+    }
+    for (int i = 0; i < m3.count; i++) {
+        if (i == 0) {
+            NSLog(@"m3 /n");
+        }
+        NSLog(@"%d ", [m3[i] intValue]);
+    }
+    for (int i = 0; i < m4.count; i++) {
+        if (i == 0) {
+            NSLog(@"m4 /n");
+        }
+        NSLog(@"%d ", [m4[i] intValue]);
+    }
 }
 
 - (void)didReceiveMemoryWarning {

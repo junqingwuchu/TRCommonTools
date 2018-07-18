@@ -27,12 +27,19 @@
 }
 
 - (void)buttonTouch:(UIButton *)button{
+    [self configFirstPage];
+
     [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)configFirstPage{
+    NSLog(@"1234567890");
 }
 
 /*
