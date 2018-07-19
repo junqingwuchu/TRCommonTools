@@ -8,9 +8,11 @@
 
 #import "ViewController.h"
 #import "FirstViewController.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *racButton;
 @end
 
 @implementation ViewController
@@ -23,6 +25,17 @@
     button.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(buttonTouch:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    [[self.racButton rac_signalForSelector:@selector(racButtonHandle:)] subscribeNext:^(RACTuple * _Nullable x) {
+        NSLog(@"12345678900987654321234567890");
+    }];
+    
+    [[self.racButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        NSLog(@"2222222222222222222");
+
+    }];
+    
 }
 
 - (void)buttonTouch:(UIButton *)button{
@@ -83,5 +96,9 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)racButtonHandle:(id)sender {
+    NSLog(@"111111111111111111");
+
+}
 
 @end
