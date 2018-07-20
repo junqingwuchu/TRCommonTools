@@ -112,7 +112,7 @@
 [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0f green:((float)((rgbValue & 0xFF00) >> 8))/255.0f blue:((float)(rgbValue & 0xFF))/255.0f alpha:1.0]
 
 /**
- *  @author _Finder丶Tiwk, 16-01-13 15:01:04
+ *  @author _Finder丶Tiwk,
  *  这个宏灵感来源于ReactiveCocoa EXTScope.h
  *  使用方法如下,注意前面的@符号 :
  @xWeakify

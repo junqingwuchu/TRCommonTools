@@ -1,16 +1,20 @@
 PODS:
   - ReactiveObjC (3.1.0)
+  - TRMemoryWave (0.1.4)
 
 DEPENDENCIES:
   - ReactiveObjC (~> 3.1.0)
+  - TRMemoryWave
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ReactiveObjC
+    - TRMemoryWave
 
 SPEC CHECKSUMS:
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  TRMemoryWave: e032d464619bf748182829a72bd4881c506e19de
 
-PODFILE CHECKSUM: 0849c0a63971cfa4fdad3c1c8b1406117a062d11
+PODFILE CHECKSUM: dc0b4e70ae2102d00c36d97be61db5f42ca1d4ad
 
 COCOAPODS: 1.5.2
