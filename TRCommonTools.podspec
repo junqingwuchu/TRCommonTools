@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://github.com/junqingwuchu"
 
   s.source       = { :git => 'https://github.com/junqingwuchu/TRCommonTools.git', :tag => "v#{s.version}"}
-  s.source_files = 'TRFPS/*.{h,m}'
+  s.source_files = 'TRCommonTools/*.{h,m}'
 
 end
