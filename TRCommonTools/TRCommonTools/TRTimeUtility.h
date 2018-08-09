@@ -112,8 +112,6 @@
  *
  *  @brief 获取指定时间指定格式字符串 "yyyy-MM-dd"
  *
- *  @param timeInterval 指定时间
- *
  *  @return 当前系统时区下指定时间指定格式字符串
  */
 + (NSString *)getFormatTimeLocalZoneNormalByDate:(NSDate *)date;
@@ -121,8 +119,6 @@
  *  @author Tracky
  *
  *  @brief 获取指定时间指定格式字符串 "yyyy-MM-dd"
- *
- *  @param timeInterval 指定时间
  *
  *  @return 指定时间指定格式字符串
  */

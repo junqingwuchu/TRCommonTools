@@ -19,7 +19,7 @@
 		FD52385820E5D69800F35119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52385720E5D69800F35119 /* main.m */; };
 		FD52386220E5D69800F35119 /* TRCommonToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52386120E5D69800F35119 /* TRCommonToolsUITests.m */; };
 		FD52389420E5D6AB00F35119 /* NSString+TRStringWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52386E20E5D6AB00F35119 /* NSString+TRStringWidth.m */; };
-		FD52389520E5D6AB00F35119 /* CHDTRPingTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387120E5D6AB00F35119 /* CHDTRPingTestHelper.m */; };
+		FD52389520E5D6AB00F35119 /* TRPingTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387120E5D6AB00F35119 /* TRPingTestHelper.m */; };
 		FD52389620E5D6AB00F35119 /* TRSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387320E5D6AB00F35119 /* TRSimplePing.m */; };
 		FD52389720E5D6AB00F35119 /* TRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387620E5D6AB00F35119 /* TRAlertController.m */; };
 		FD52389820E5D6AB00F35119 /* TRAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52387820E5D6AB00F35119 /* TRAlertWindow.m */; };
@@ -74,8 +74,8 @@
 		FD52386320E5D69800F35119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD52386D20E5D6AB00F35119 /* NSString+TRStringWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TRStringWidth.h"; sourceTree = "<group>"; };
 		FD52386E20E5D6AB00F35119 /* NSString+TRStringWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TRStringWidth.m"; sourceTree = "<group>"; };
-		FD52387020E5D6AB00F35119 /* CHDTRPingTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDTRPingTestHelper.h; sourceTree = "<group>"; };
-		FD52387120E5D6AB00F35119 /* CHDTRPingTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDTRPingTestHelper.m; sourceTree = "<group>"; };
+		FD52387020E5D6AB00F35119 /* TRPingTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPingTestHelper.h; sourceTree = "<group>"; };
+		FD52387120E5D6AB00F35119 /* TRPingTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPingTestHelper.m; sourceTree = "<group>"; };
 		FD52387220E5D6AB00F35119 /* TRSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSimplePing.h; sourceTree = "<group>"; };
 		FD52387320E5D6AB00F35119 /* TRSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSimplePing.m; sourceTree = "<group>"; };
 		FD52387520E5D6AB00F35119 /* TRAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAlertController.h; sourceTree = "<group>"; };
@@ -244,8 +244,8 @@
 		FD52386F20E5D6AB00F35119 /* PingTestHelper */ = {
 			isa = PBXGroup;
 			children = (
-				FD52387020E5D6AB00F35119 /* CHDTRPingTestHelper.h */,
-				FD52387120E5D6AB00F35119 /* CHDTRPingTestHelper.m */,
+				FD52387020E5D6AB00F35119 /* TRPingTestHelper.h */,
+				FD52387120E5D6AB00F35119 /* TRPingTestHelper.m */,
 				FD52387220E5D6AB00F35119 /* TRSimplePing.h */,
 				FD52387320E5D6AB00F35119 /* TRSimplePing.m */,
 			);
@@ -395,7 +395,7 @@
 				FD52389F20E5D6AB00F35119 /* TRTimeUtility.m in Sources */,
 				FD5238A320E5D6AB00F35119 /* UIView+TRFrame.m in Sources */,
 				FD52389C20E5D6AB00F35119 /* TRFileManager.m in Sources */,
-				FD52389520E5D6AB00F35119 /* CHDTRPingTestHelper.m in Sources */,
+				FD52389520E5D6AB00F35119 /* TRPingTestHelper.m in Sources */,
 				FD5238A020E5D6AB00F35119 /* TRWKWeakDelegateController.m in Sources */,
 				FD02A67C20FCA41400E9F1C3 /* FirstViewController+Config.m in Sources */,
 				FD5238A220E5D6AB00F35119 /* UIView+TRCorner.m in Sources */,

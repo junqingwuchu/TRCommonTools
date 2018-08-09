@@ -85,6 +85,8 @@
 #define kSafeAreaBottomHeight (kScreenHeight == 812 ? 34 : 0)
 
 #define kSafeAreaTopHeight (kScreenHeight == 812 ? 88 : 64)
+/* ------底部tabBar高度+SafeArea高度------*/
+#define kBottomTabbarHeight (kScreenHeight == 812 ? (49.f + 34.f) : 49.f)
 
 
 /* ------字体------*/
@@ -107,9 +109,21 @@
 [UIColor colorWithRed:(__r)/255.0f green:(__g)/255.0f blue:(__b)/255.0f alpha:(__a)]
 
 #define RGBCOLOR(__r,__g,__b) RGBACOLOR(__r,__g,__b,1.0)
+/**
+ *  @brief UIColor初始化宏
+ *  @param AHEX 色彩值
+ *  @return RGB颜色
+ *  @since v0.1.0
+ */
+#define RGBXCOLOR(hexValue) \
+[UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0f green:((float)((hexValue & 0xFF00) >> 8))/255.0f blue:((float)(hexValue & 0xFF))/255.0f alpha:1.0]
 
-#define RGBXCOLOR(rgbValue) \
-[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0f green:((float)((rgbValue & 0xFF00) >> 8))/255.0f blue:((float)(rgbValue & 0xFF))/255.0f alpha:1.0]
+#define RGBXACOLOR(hexValue,alpha) ([RGBXCOLOR(hexValue) colorWithAlphaComponent:alpha])
+/**
+ *  @brief 随机色
+ *  @since v0.1.0
+ */
+#define RGBCOLORRandom ([UIColor colorWithRed:(arc4random() % 256)/255.0 green:(arc4random() % 256)/255.0 blue:(arc4random() % 256)/255.0 alpha:1])
 
 /**
  *  @author _Finder丶Tiwk,

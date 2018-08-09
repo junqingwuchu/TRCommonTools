@@ -1,5 +1,5 @@
 //
-//  CHDTRPingTestHelper.h
+//  TRPingTestHelper.h
 //  Pods
 //
 //  Created by Tracky on 2017/11/20.
@@ -37,12 +37,12 @@ typedef NS_ENUM(NSInteger, STDPingStatus) {
 @end
 
 
-@interface CHDTRPingTestHelper : NSObject
+@interface TRPingTestHelper : NSObject
 
 // 超时时间, default 100ms
 @property(nonatomic) double timeoutMilliseconds;
 
-+ (CHDTRPingTestHelper *)startPingAddress:(NSString *)address
++ (TRPingTestHelper *)startPingAddress:(NSString *)address
                       callbackHandler:(void(^)(TRPingItem *pingItem, NSArray *pingItems))handler;
 // 最大连续ping次数
 @property(nonatomic) NSInteger  maximumPingTimes;
