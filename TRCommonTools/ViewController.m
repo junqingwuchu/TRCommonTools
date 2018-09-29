@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "FirstViewController.h"
+#import "SubTestClass.h"
+#import "TestClass.h"
+#import "TestClass+TRHeader.h"
 
 @interface ViewController ()
 
@@ -17,12 +20,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CGFloat s = 1.4;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(50, 80, 80, 60);
-    [button setTitle:@"点我点我" forState:UIControlStateNormal];
+    [button setTitle:[NSString stringWithFormat:@"%.f", s] forState:UIControlStateNormal];
     button.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(buttonTouch:) forControlEvents:UIControlEventTouchUpInside];
+    
+//    SubTestClass * sub = [[SubTestClass alloc] init];
+//
+//    TestClass * cla = [[TestClass alloc] init];
+
+    [SubTestClass lll];
 }
 
 - (void)buttonTouch:(UIButton *)button{

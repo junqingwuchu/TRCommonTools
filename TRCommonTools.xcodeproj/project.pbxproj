@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02947D6C2111DE4B0010757F /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 02947D6B2111DE4B0010757F /* TestClass.m */; };
+		02A7866B2114B25C00DDA1E2 /* TestClass+TRHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A7866A2114B25C00DDA1E2 /* TestClass+TRHeader.m */; };
+		02AFCCCA2114AE3B0089BC98 /* SubTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AFCCC92114AE3B0089BC98 /* SubTestClass.m */; };
 		FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */; };
 		FD4E8B5B20EDF88D00738E1A /* UITextField+TRBackward.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */; };
 		FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD52384920E5D69800F35119 /* AppDelegate.m */; };
@@ -48,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02947D6A2111DE4B0010757F /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		02947D6B2111DE4B0010757F /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		02A786692114B25C00DDA1E2 /* TestClass+TRHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestClass+TRHeader.h"; sourceTree = "<group>"; };
+		02A7866A2114B25C00DDA1E2 /* TestClass+TRHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TestClass+TRHeader.m"; sourceTree = "<group>"; };
+		02AFCCC82114AE3B0089BC98 /* SubTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTestClass.h; sourceTree = "<group>"; };
+		02AFCCC92114AE3B0089BC98 /* SubTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTestClass.m; sourceTree = "<group>"; };
 		FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		FD4E8B5920EDF88D00738E1A /* UITextField+TRBackward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TRBackward.h"; sourceTree = "<group>"; };
@@ -152,6 +161,12 @@
 				FD52384C20E5D69800F35119 /* ViewController.m */,
 				FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */,
 				FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */,
+				02947D6A2111DE4B0010757F /* TestClass.h */,
+				02947D6B2111DE4B0010757F /* TestClass.m */,
+				02AFCCC82114AE3B0089BC98 /* SubTestClass.h */,
+				02AFCCC92114AE3B0089BC98 /* SubTestClass.m */,
+				02A786692114B25C00DDA1E2 /* TestClass+TRHeader.h */,
+				02A7866A2114B25C00DDA1E2 /* TestClass+TRHeader.m */,
 				FD52384E20E5D69800F35119 /* Main.storyboard */,
 				FD52385120E5D69800F35119 /* Assets.xcassets */,
 				FD52385320E5D69800F35119 /* LaunchScreen.storyboard */,
@@ -343,6 +358,7 @@
 				FD52389B20E5D6AB00F35119 /* TRCommonFunction.m in Sources */,
 				FD52389F20E5D6AB00F35119 /* TRTimeUtility.m in Sources */,
 				FD5238A320E5D6AB00F35119 /* UIView+TRFrame.m in Sources */,
+				02AFCCCA2114AE3B0089BC98 /* SubTestClass.m in Sources */,
 				FD52389C20E5D6AB00F35119 /* TRFileManager.m in Sources */,
 				FD52389520E5D6AB00F35119 /* CHDTRPingTestHelper.m in Sources */,
 				FD5238A020E5D6AB00F35119 /* TRWKWeakDelegateController.m in Sources */,
@@ -350,7 +366,9 @@
 				FD52384D20E5D69800F35119 /* ViewController.m in Sources */,
 				FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */,
 				FD5238A420E5D6AB00F35119 /* UIView+TRGradient.m in Sources */,
+				02A7866B2114B25C00DDA1E2 /* TestClass+TRHeader.m in Sources */,
 				FD52385820E5D69800F35119 /* main.m in Sources */,
+				02947D6C2111DE4B0010757F /* TestClass.m in Sources */,
 				FD52384A20E5D69800F35119 /* AppDelegate.m in Sources */,
 				FD52389E20E5D6AB00F35119 /* TRScheduledTask.m in Sources */,
 				FD52389420E5D6AB00F35119 /* NSString+TRStringWidth.m in Sources */,
