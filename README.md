@@ -35,4 +35,6 @@
 
 14，CHDTRPingTestHelper                  ping网关，统计丢包率
 
-14，UIViewController+Swizzling           通过Runtime,让VC在appear时输出当前类名log,用于确定当前是哪个VC
+15，UIViewController+Swizzling           通过Runtime,让VC在appear时输出当前类名log,用于确定当前是哪个VC
+
+16，TRPrintJsonLog                              用于Xcode控制台格式化输出json，便于控制台数据阅读
