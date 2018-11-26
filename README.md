@@ -1,5 +1,11 @@
+
+![Platform](https://img.shields.io/badge/Platform-iOS-ff69b4.svg)
+![Version](https://img.shields.io/badge/Version-0.0.1-brightgreen.svg)
+![Author](https://img.shields.io/badge/Author-junqingwuchu-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # TRCommonTools
-一些很有用工具类,有的是自己写的,为满足当时项目需要,也有几个前辈们写的然后修改的,这里做一个集合
+### 一些很有用工具类,这里做一个集合
 
 1，TRMacroDefine.h                           几个非常有用的宏 
 

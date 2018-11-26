@@ -1,11 +1,11 @@
 //
-//  CHDTRPingTestHelper.m
+//  TRPingTestHelper.m
 //  Pods
 //
 //  Created by Tracky on 2017/11/20.
 //
 
-#import "CHDTRPingTestHelper.h"
+#import "TRPingTestHelper.h"
 
 @implementation TRPingItem
 
@@ -53,12 +53,12 @@
     CGFloat lossPercent = (CGFloat)(allCount - receivedCount) / MAX(1.0, allCount) * 100;
     [description appendFormat:@"%ld packets transmitted, %ld packets received, %.1f%% packet loss\n", (long)allCount, (long)receivedCount, lossPercent];
     CGFloat avgTime = sumTime / MAX(1.0, allCount);
+    NSLog(@"%.2f", avgTime);
     return [description stringByReplacingOccurrencesOfString:@".0%" withString:@"%"];
 }
 
 
 + (NSArray *)statisticsArrayWithPingItems:(NSArray *)pingItems {
-    NSString *address = [pingItems.firstObject originalAddress];
     __block NSInteger receivedCount = 0, allCount = 0;
     __block double sumTime = 0;
     [pingItems enumerateObjectsUsingBlock:^(TRPingItem *obj, NSUInteger idx, BOOL *stop) {
@@ -83,7 +83,7 @@
 @end
 
 
-@interface CHDTRPingTestHelper () <TRSimplePingDelegate> {
+@interface TRPingTestHelper () <TRSimplePingDelegate> {
     BOOL _hasStarted;
     BOOL _isTimeout;
     NSInteger   _repingTimes;
@@ -100,11 +100,11 @@
 
 
 
-@implementation CHDTRPingTestHelper
+@implementation TRPingTestHelper
 
-+ (CHDTRPingTestHelper *)startPingAddress:(NSString *)address
++ (TRPingTestHelper *)startPingAddress:(NSString *)address
                       callbackHandler:(void(^)(TRPingItem *item, NSArray *pingItems))handler {
-    CHDTRPingTestHelper * pingServices = [[CHDTRPingTestHelper alloc] initWithAddress:address];
+    TRPingTestHelper * pingServices = [[TRPingTestHelper alloc] initWithAddress:address];
     pingServices.callbackHandler = handler;
     [pingServices startPing];
     return pingServices;
