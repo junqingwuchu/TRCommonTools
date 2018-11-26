@@ -34,3 +34,5 @@
 13，TRAlertController                           封装的系统弹窗，事件方便处理
 
 14，CHDTRPingTestHelper                  ping网关，统计丢包率
+
+14，UIViewController+Swizzling           通过Runtime,让VC在appear时输出当前类名log,用于确定当前是哪个VC
