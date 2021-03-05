@@ -10,6 +10,7 @@
 		02E687CE21ABF44400C9D68C /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E687CC21ABF44400C9D68C /* UIViewController+Swizzling.m */; };
 		02E687D121ABF53E00C9D68C /* TRPrintJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E687D021ABF53E00C9D68C /* TRPrintJsonLog.m */; };
 		0E754CC1C6CF9AFE54D81E75 /* libPods-TRCommonTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E011084E6EFE789B24557D /* libPods-TRCommonTools.a */; };
+		BA504D8625F20865000D9327 /* TRClangTrance.m in Sources */ = {isa = PBXBuildFile; fileRef = BA504D8425F20865000D9327 /* TRClangTrance.m */; };
 		FD02A67C20FCA41400E9F1C3 /* FirstViewController+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = FD02A67B20FCA41400E9F1C3 /* FirstViewController+Config.m */; };
 		FD4E8B5820EDF3BA00738E1A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5720EDF3BA00738E1A /* FirstViewController.m */; };
 		FD4E8B5B20EDF88D00738E1A /* UITextField+TRBackward.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E8B5A20EDF88D00738E1A /* UITextField+TRBackward.m */; };
@@ -59,6 +60,8 @@
 		25E011084E6EFE789B24557D /* libPods-TRCommonTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRCommonTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E123FFCE8603E9A31373231 /* Pods-TRCommonTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRCommonTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRCommonTools/Pods-TRCommonTools.debug.xcconfig"; sourceTree = "<group>"; };
 		B0B99ED09189721CDB732B7E /* Pods-TRCommonTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRCommonTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRCommonTools/Pods-TRCommonTools.release.xcconfig"; sourceTree = "<group>"; };
+		BA504D8425F20865000D9327 /* TRClangTrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRClangTrance.m; sourceTree = "<group>"; };
+		BA504D8525F20865000D9327 /* TRClangTrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRClangTrance.h; sourceTree = "<group>"; };
 		FD02A67A20FCA41400E9F1C3 /* FirstViewController+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstViewController+Config.h"; sourceTree = "<group>"; };
 		FD02A67B20FCA41400E9F1C3 /* FirstViewController+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FirstViewController+Config.m"; sourceTree = "<group>"; };
 		FD4E8B5620EDF3BA00738E1A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 				FD52387420E5D6AB00F35119 /* TRAlert */,
 				FD52387920E5D6AB00F35119 /* TRAnimationHelper.h */,
 				FD52387A20E5D6AB00F35119 /* TRAnimationHelper.m */,
+				BA504D8525F20865000D9327 /* TRClangTrance.h */,
+				BA504D8425F20865000D9327 /* TRClangTrance.m */,
 				FD52387B20E5D6AB00F35119 /* TRAttributeDictionary.h */,
 				FD52387C20E5D6AB00F35119 /* TRAttributeDictionary.m */,
 				FD52387D20E5D6AB00F35119 /* TRCommonFunction.h */,
@@ -403,6 +408,7 @@
 				FD5238A520E5D6AB00F35119 /* ZFModalTransitionAnimator.m in Sources */,
 				FD52389B20E5D6AB00F35119 /* TRCommonFunction.m in Sources */,
 				02E687D121ABF53E00C9D68C /* TRPrintJsonLog.m in Sources */,
+				BA504D8625F20865000D9327 /* TRClangTrance.m in Sources */,
 				FD52389F20E5D6AB00F35119 /* TRTimeUtility.m in Sources */,
 				FD5238A320E5D6AB00F35119 /* UIView+TRFrame.m in Sources */,
 				FD52389C20E5D6AB00F35119 /* TRFileManager.m in Sources */,
